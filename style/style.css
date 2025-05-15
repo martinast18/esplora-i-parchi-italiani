@@ -149,6 +149,24 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
   }
+
+  .card-link {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+  }
+  
+  .card-link .card {
+    cursor: pointer;
+
+  }
+  
+  .card-title {
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: #002b5c;
+  }
   
   .card:hover {
     transform: scale(1.03); 
@@ -161,13 +179,6 @@ body {
     object-fit: cover;
   }
   
-  .card ul {
-    padding: 10px;
-    font-weight: bold;
-    text-align: center;
-    color: #002b5c;
-    text-decoration: none;
-  }
   
   footer {
     background-color: #ffffff;
